@@ -7,9 +7,6 @@ public class CriarConta {
 		conta1.saldo = 100.00;
 		conta1.agencia = 1234;
 		conta1.numero = 123456;
-		conta1.titular.nome = "Maria";
-		conta1.titular.cpf = "123.456.789-00";
-		conta1.titular.email = "maria@gmail.com";
 		
 		Conta conta2 = new Conta();
 		conta2.saldo = 100.00;
@@ -17,9 +14,7 @@ public class CriarConta {
 		conta2.numero = 123456;
 
 		Titular titular = new Titular();
-		titular.nome = "Paula";
-		titular.cpf = "123.456.789-00";
-		titular.email = "paula@gmail.com";
+
 		
 		conta2.titular = titular;
 		

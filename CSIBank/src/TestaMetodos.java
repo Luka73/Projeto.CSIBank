@@ -4,8 +4,8 @@ public class TestaMetodos {
 	public static void main(String[] args) {
 		Conta conta1 = new Conta();
 		Conta conta2 = new Conta();
-		conta1.deposita(100.0);
-		conta1.deposita(50);
+		conta1.setSaldo(100.0);
+		conta1.setSaldo(50);
 		
 		System.out.println("Saldo: " + conta1.saldo);
 		
