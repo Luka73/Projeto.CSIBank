@@ -3,7 +3,7 @@ public class Titular {
 	private String nome;
 	private String email;
 	private String cpf;
-	
+	private Endereco endereco;
 	
 	public String getNome() {
 		return nome;
@@ -28,4 +28,13 @@ public class Titular {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+	
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
 }
