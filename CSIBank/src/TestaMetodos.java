@@ -23,7 +23,6 @@ public class TestaMetodos {
 		conta1.transfere(50, conta2);
 		System.out.println("Saldo da conta2 depois: " + conta2.saldo);
 		System.out.println("Saldo da conta1 atual: " + conta1.saldo);
-		
 
 	}
 
