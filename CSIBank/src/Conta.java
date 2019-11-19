@@ -5,6 +5,19 @@ public class Conta {
 	int numero;
 	Titular titular;
 	
+	Conta(){
+		
+	}
+	
+	Conta(int agencia, int numero){
+		if(String.valueOf(numero).length() == 7) {
+			this.agencia = agencia;
+			this.numero = numero;
+		}else {
+			System.out.println("ERRO!");
+		}
+	}
+	
 	public double getSaldo() {
 		return saldo;
 	}

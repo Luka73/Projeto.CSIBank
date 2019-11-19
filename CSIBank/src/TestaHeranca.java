@@ -3,8 +3,12 @@ public class TestaHeranca {
 
 	public static void main(String[] args) {
 		
-		Pessoa p1 = new Pessoa();
+		Pessoa p1 = new Pessoa("Luana");
 		p1.setNome("Maria");
+		
+		Pessoa p2 = new Pessoa("Raquel", "raquel@gmail.com");
+		
+		Pessoa p3 = new Pessoa();
 	
 		PessoaFisica pf1 = new PessoaFisica();
 		pf1.setNome("Pedro");
